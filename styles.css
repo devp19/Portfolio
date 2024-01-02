@@ -7,46 +7,71 @@
   --font-family-base: 'SF Pro Display';
 }
 
+
+
 .background-geo {
-  background-image: url('assets/Background-Geometric.jpg');
-  background-size: cover;
+  background-image: url("assets/abstract.jpg");
+  background-size: 280vh;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.75
-  ); /* Adjust the opacity by changing the last value (0.5) */
-  z-index: -1;
-}
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity by changing the last value (0.5) */
+    z-index: -1;
+  }
 
 .nav-link {
-  font-family: SF Pro Display;
-  color: white;
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+  color: whitesmoke;
 }
 
 .nav-link:hover {
-  color: #b5a997;
-  font-family: SF Pro Display;
+  color: #525CEB;
+  font-family: 'Helvetica Neue';
 }
 
-.name-minor {
-  font-family: SF Pro Display;
-  color: white;
-  font-size: 50px;
+#landing-name {
+  font-family: Goku Regular;
+  color: whitesmoke;
+  font-size: 130px;
+  line-height: 130px;
+  
 }
 
-.name-main {
+
+#description {
   font-family: SF Pro Display;
-  background: linear-gradient(to right, #e65764, #f5ad4f);
-  font-size: 180px;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#below-text {
+  color: whitesmoke;
+}
+
+#main-line {
+    width: 100px;
+    height: 5px; /* Adjust the height to make it a thin line */
+    background-color: #525CEB; /* Set the desired color */
+    margin-bottom: 10px;
+  }
+
+
+#main-image {
+  height: 750px;
+  margin-top: -100px;
+  transition: 0.5s;
+  padding: none;
+}
+
+#main-image:hover {
+  transform: translateY(-20px);
+  
+  
 }
