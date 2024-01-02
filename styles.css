@@ -4,11 +4,11 @@
 }
 
 :root {
-  --font-family-base: "SF Pro Display";
+  --font-family-base: 'SF Pro Display';
 }
 
 .background-geo {
-  background-image: url("assets/abstract.jpg");
+  background-image: url('assets/abstract.jpg');
   background-size: 280vh;
 }
 
@@ -22,21 +22,21 @@
     0,
     0,
     0,
-    0.65
+    0.85
   ); /* Adjust the opacity by changing the last value (0.5) */
   background-blend-mode: soft-light;
   z-index: -1;
 }
 
 .nav-link {
-  font-family: "Helvetica Neue";
+  font-family: 'Helvetica Neue';
   font-size: 20px;
   color: whitesmoke;
 }
 
 .nav-link:hover {
   color: #525ceb;
-  font-family: "Helvetica Neue";
+  font-family: 'Helvetica Neue';
 }
 
 #landing-name {
@@ -94,12 +94,24 @@
   color: whitesmoke;
 }
 
-#test {
-  
-background: rgba(46, 46, 46, 0.37);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.3px);
--webkit-backdrop-filter: blur(8.3px);
-border: 1px solid rgba(255, 255, 255, 0.47);
+#test-1 {
+  height: 500px;
+  margin-top: 50px;
+  background: rgba(46, 46, 46, 0.37);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+}
+
+#test-2 {
+  height: 500px;
+  margin-top: 50px;
+  background: rgba(46, 46, 46, 0.37);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
 }
