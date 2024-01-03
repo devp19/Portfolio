@@ -182,6 +182,10 @@
     #aboutpara {
       font-size: 16px; /* Adjust font size for smaller screens */
     }
+
+    #box-about {
+      height: 700px;
+    }
   }
 }
 
