@@ -36,15 +36,32 @@
         border: 1px solid white;
       }
     </style>
+
+    <style>
+      .extended-row {
+        height: 100vh;
+        display: none; /* Initially hide the row */
+      }
+    </style>
   </head>
 
   <body class="background-geo">
     <div class="overlay"></div>
     <!-- -------------------------- NAVBAR ------------------------->
 
-    <nav class="navbar glass-navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav
+      class="navbar glass-navbar navbar-expand-lg"
+      data-bs-theme="dark"
+      style="position: fixed; width: 100%; top: 0; z-index: 1000"
+    >
       <div class="container">
-        <a class="navbar-brand" style="font-size: 20px; font-family: Goku Regular; font-style: italic;" href="#"> DEV PATEL</a>
+        <a
+          class="navbar-brand"
+          style="font-size: 20px; font-family: Goku Regular; font-style: italic"
+          href="#"
+        >
+          DEV PATEL
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -64,7 +81,6 @@
             <li class="nav-item px-4">
               <a class="nav-link" href="#">PROJECTS</a>
             </li>
-
             <li class="nav-item px-4">
               <a class="nav-link" href="#">CONTACT</a>
             </li>
@@ -77,45 +93,56 @@
 
     <!---------------------------- TESTING ------------------------->
     <main>
-      <!-- <div class="container">
-        <div class="row mt-5 pt-4">
-          <h4 id=landing-name class="col-md-4 border-demo">DEV PATEL</h4>
-          <h4 id=img-box class="col-md-8 border-demo">tesst</h4>
-        </div> -->
-
       <div class="container">
         <div class="row pt-4">
           <div class="col-md-5 pt-5">
             <div id="landing-name">DEV PATEL</div>
             <div id="main-line"></div>
             <div id="description">
-              Aspiring AI / machine-learning engineer. Currently a
-              first year computer science student at Toronto Metropolitan
-              University, pursuing a Bachelors of Science degree.
+              Aspiring AI / machine-learning engineer. Currently a first year
+              computer science student at Toronto Metropolitan University,
+              pursuing a Bachelors of Science degree.
             </div>
             <a href="#about-me" id="arrow-down">⌄</a>
           </div>
 
           <div id="test-2" class="col-md-5 ms-auto">
-
-          <img id='settingsimg' class="img-fluid ms-auto" src="assets/settings.webp" alt="">    
-
+            <img
+              id="settingsimg"
+              class="img-fluid ms-auto"
+              src="assets/settings.webp"
+              alt=""
+            />
           </div>
         </div>
-
-      <div id=about-me class="container">
-
-        <div class="row pt-5">
-          <div id=about-me-text class="col-md-4">ABOUT ME</div>
-          
-        <div class="row">
-          <div id="about-line"></div>
-        </div>
-          
-
       </div>
-        
 
+      <div class="container">
+        <div id="about-me" class="row">
+          <div class="col-md-12">
+            <p id="about-me-text">ABOUT ME</p>
+            <div id="about-line"></div>
+            <div id="box-about">
+              <div id="aboutpara">
+                Hey, I'm Dev Patel, an 18-year-old, First-Year Computer Science
+                student at Toronto Metropolitan University. In my program, I'm
+                focused on coding, problem-solving, and ideally keeping up with
+                tech trends. As I tackle coursework and coding challenges, I'm
+                particularly interested in artificial intelligence and machine
+                learning. Looking ahead, I'm leaning towards exploring
+                opportunities in BioTech or FinTech after graduation, where I
+                hope to apply my skills to make a real-world impact. In my
+                pursuit of merging technology with real-world applications, I
+                have actively collaborated with fellow students on AI and
+                machine learning projects, further solidifying my coding
+                proficiency. Beyond the academic setting, I am exploring
+                internships and mentorship opportunities in BioTech and FinTech,
+                eager to gain practical insights that will inform my future
+                contributions in these dynamic industries. Make sure to check
+                out my finished projects!
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
