@@ -378,3 +378,92 @@
   transform: scale(130%);
   /* transform: translateY(-30px); */
 }
+
+
+#form-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  background: rgba(46, 46, 46, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  transition: 1s;
+  overflow: hidden;
+}
+
+#actual-form {
+  width: 100%; /* Make the form take the full width of form-box */
+  max-width: 1000px; /* Adjust the max-width as needed */
+}
+
+
+#form4Example3 {
+  height: 200px;
+  max-height: 250px; /* Adjust the max height as needed */
+  resize: none; /* Disable textarea resizing */
+}
+
+#send-button {
+  background-color: #525ceb;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+#send-button:hover {
+  background-color: whitesmoke;
+  color: #525ceb;
+}
+
+
+
+
+#first-social {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 20px;
+  
+}
+
+#second-social {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+  margin-left: 30px;
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 20px;
+}
+
+#third-social {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+  margin-left: 30px;
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 20px;
+}
+
+#contact-icon {
+  padding-right: 10px;
+}
+
+@media (max-width: 509px) {
+  #first-social {
+    display: none;
+  }
+
+  #second-social {
+    margin-left: 0px;
+  }
+}
