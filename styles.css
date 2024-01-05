@@ -361,3 +361,20 @@
     display: none;
   }
 }
+
+
+
+#ext-link {
+  color: #525ceb;
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#ext-link:hover {
+  color: whitesmoke;
+  transform: scale(130%);
+  /* transform: translateY(-30px); */
+}
