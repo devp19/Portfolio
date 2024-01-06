@@ -469,3 +469,51 @@
 }
 
 
+
+#success-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  background: rgba(46, 46, 46, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  transition: 1s;
+  overflow: hidden;
+}
+
+#text-submission {
+  color: whitesmoke;
+  font-size: 40px;
+  font-family: Zuume;
+  font-style: oblique;
+}
+
+#success-line {
+  width: 100px;
+  height: 5px; /* Adjust the height to make it a thin line */
+  background-color: #525ceb; /* Set the desired color */
+  transition: 0.5s;
+  margin-top: -20px;
+}
+
+#go-home{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 25px;
+  transition: 0.5s;
+  margin-top: 30px;
+  
+}
+
+#go-home:hover {
+  background-color: whitesmoke;
+  color: #525ceb;
+}
