@@ -443,6 +443,18 @@
   
 }
 
+#project-git {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+  margin-top: 10px;
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 20px;
+  
+}
+
 #second-social {
   color: white;
   text-decoration: none;
@@ -527,4 +539,11 @@
 #go-home:hover {
   background-color: whitesmoke;
   color: #525ceb;
+}
+
+
+@media (max-width: 767px) {
+  #ext-link {
+    display: none;
+  }
 }
