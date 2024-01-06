@@ -40,6 +40,7 @@
         border: 1px solid white;
       }
     </style>
+
   </head>
 
   <body class="background-geo">
@@ -122,12 +123,11 @@
         <div class="row py-5 w">
             <div class="col-md-12">
                 <div id="form-box">
-                    <form id="actual-form" class="p-md-5">
-                        <!-- Name input -->
+                    <form id="actual-form"  method="POST" netlify> 
+                        <!-- Name input -->                        
+                          <div class="form-floating mb-3">
             
-                        <div class="form-floating mb-3">
-            
-                            <input type="text" id="form4Example1" class="form-control" />
+                            <input name="name" type="text" id="form4Example1" class="form-control" />
               
                             <label class="form-label" for="form4Example1">Name</label>
               
@@ -139,7 +139,7 @@
               
                           <div class="form-floating mb-3">
               
-                            <input type="email" id="form4Example2" class="form-control" />
+                            <input name="email" type="email" id="form4Example2" class="form-control" />
               
                             <label class="form-label" for="form4Example2">Email Address</label>
               
@@ -151,7 +151,7 @@
               
                           <div class="form-floating mb-3">
               
-                            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                            <textarea name="message" class="form-control" id="form4Example3" rows="4"></textarea>
               
                             <label class="form-label" for="form4Example3">Message</label>
               
@@ -162,9 +162,13 @@
               
                           <button id =send-button type="submit" class="w-100 btn btn-lg btn-primary">Send</button>
                     </form>
+
                 </div>
+
             </div>
         </div>
+
+
     </div>
 
     
