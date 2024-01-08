@@ -566,4 +566,12 @@
     border: 0px solid rgba(255, 255, 255, 0.47);
    
   }
+
+}
+
+@media (max-width: 767px) {
+  #languages-icon,
+  #tech-icons {
+      display: none;
+  }
 }
