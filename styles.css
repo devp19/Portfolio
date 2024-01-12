@@ -27,7 +27,7 @@
     0,
     0,
     0.85
-  ); /* Adjust the opacity by changing the last value (0.5) */
+  ); 
   background-blend-mode: soft-light;
   z-index: -1;
 }
@@ -45,7 +45,7 @@
 }
 
 .glass-navbar {
-  background: rgba(46, 46, 46, 0.3); /* Adjust the opacity as needed */
+  background: rgba(46, 46, 46, 0.3);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8.3px);
   -webkit-backdrop-filter: blur(8.3px);
@@ -75,8 +75,8 @@
 
 #main-line {
   width: 100px;
-  height: 5px; /* Adjust the height to make it a thin line */
-  background-color: #525ceb; /* Set the desired color */
+  height: 5px; 
+  background-color: #525ceb; 
   margin-bottom: 10px;
   transition: 0.5s;
   margin-top: 30px;
@@ -104,8 +104,8 @@
   height: 500px;
   margin-top: 120px;
   display: flex;
-  align-items: center; /* Vertical centering */
-  justify-content: center; /* Horizontal centering */
+  align-items: center; 
+  justify-content: center; 
   background: rgba(46, 46, 46, 0.3);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -146,8 +146,8 @@
 
   #about-line {
     width: 200px;
-    height: 5px; /* Adjust the height to make it a thin line */
-    background-color: #525ceb; /* Set the desired color */
+    height: 5px; 
+    background-color: #525ceb; 
     transition: 0.5s;
     padding: none;
   }
@@ -168,8 +168,8 @@
     transition: 1s;
     overflow: hidden;
     display: flex;
-    align-items: center; /* Vertical centering */
-    justify-content: center; /* Horizontal centering */
+    align-items: center; 
+    justify-content: center; 
     
   }
 
@@ -177,14 +177,14 @@
     font-family: 'SF Pro Display', sans-serif;
     color: whitesmoke;
     font-size: calc(300px / 15);
-    max-width: 80%; /* Adjust the maximum width of the paragraph */
+    max-width: 80%; 
     line-height: 1.5;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
   }
 
   @media (max-width: 767px) {
     #aboutpara {
-      font-size: 16px; /* Adjust font size for smaller screens */
+      font-size: 16px; 
     }
 
     #box-about {
@@ -215,8 +215,8 @@
 
 #projects-line {
   width: 100px;
-  height: 5px; /* Adjust the height to make it a thin line */
-  background-color: #525ceb; /* Set the desired color */
+  height: 5px; 
+  background-color: #525ceb; 
   transition: 0.5s;
   margin-top: 0px;
 }
@@ -287,8 +287,8 @@
 #first-line,
 #second-line {
   width: 50px;
-  height: 5px; /* Adjust the height to make it a thin line */
-  background-color: #525ceb; /* Set the desired color */
+  height: 5px; 
+  background-color: #525ceb; 
   transition: 0.5s;
   margin-top: 0px;
   margin-left: 30px;
@@ -336,28 +336,28 @@
 @media (max-width: 1399px) {
   #first-para,
   #second-para {
-    font-size: 19px; /* Adjust font size for smaller screens */
+    font-size: 19px; 
   }
 }
 
 @media (max-width: 1399px) {
   #first-para,
   #second-para {
-    font-size: 17px; /* Adjust font size for smaller screens */
+    font-size: 17px; 
   }
 }
 
 @media (max-width: 991px) {
   #first-para,
   #second-para {
-    font-size: 15px; /* Adjust font size for smaller screens */
+    font-size: 15px; 
   }
 }
 
 @media (max-width: 768px) {
   #first-para,
   #second-para {
-    font-size: 15px; /* Adjust font size for smaller screens */
+    font-size: 15px; 
   }
 
   #first-box {
@@ -387,7 +387,7 @@
 #ext-link:hover {
   color: whitesmoke;
   transform: scale(130%);
-  /* transform: translateY(-30px); */
+ 
 }
 
 
@@ -407,15 +407,15 @@
 }
 
 #actual-form {
-  width: 100%; /* Make the form take the full width of form-box */
-  max-width: 1000px; /* Adjust the max-width as needed */
+  width: 100%; 
+  max-width: 1000px;
 }
 
 
 #form4Example3 {
   height: 200px;
-  max-height: 250px; /* Adjust the max height as needed */
-  resize: none; /* Disable textarea resizing */
+  max-height: 250px; 
+  resize: none; 
 }
 
 #send-button {
@@ -517,8 +517,8 @@
 
 #success-line {
   width: 100px;
-  height: 5px; /* Adjust the height to make it a thin line */
-  background-color: #525ceb; /* Set the desired color */
+  height: 5px; 
+  background-color: #525ceb; 
   transition: 0.5s;
   margin-top: -20px;
 }
@@ -556,7 +556,7 @@
       0,
       0,
       0.80
-    ); /* Adjust the opacity by changing the last value (0.5) */
+    ); 
     background-blend-mode: soft-light;
     z-index: -1;
   }
@@ -569,9 +569,23 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
+
+  #form-box {
+      
+    border: 0px solid rgba(255, 255, 255, 0.47);
+  
+  }
+
+}
+
+@media (max-width: 991px) {
   #languages-icon,
   #tech-icons {
       display: none;
   }
+}
+
+#skill-icon {
+  width: auto;
 }
