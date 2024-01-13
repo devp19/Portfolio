@@ -8,6 +8,15 @@
   --font-family-base: 'SF Pro Display';
 }
 
+@font-face {
+  font-family: 'Goku';
+  src: url('assets/Font-Style/Goku-Regular.woff2') format('woff2'),
+      url('assets/Font-Style/Goku-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .background-geo {
   background-image: url('assets/abstract.jpg');
   background-attachment: fixed;
@@ -53,7 +62,7 @@
 
 #landing-name {
   margin-top: 120px;
-  font-family: Goku Regular;
+  font-family: 'Goku';
   font-style: oblique;
   color: whitesmoke;
   font-size: 130px;
@@ -136,7 +145,7 @@
   cursor: default;
 
   #about-me-text {
-    font-family: Goku Regular;
+    font-family: Goku;
     font-style: oblique;
     color: whitesmoke;
     font-size: 100px;
@@ -207,7 +216,7 @@
 #landing-project {
   color: white;
   font-size: 80px;
-  font-family: Goku Regular;
+  font-family: Goku;
   font-style: oblique;
   margin-top: 30px;
   cursor: default;
@@ -232,7 +241,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-family: Goku Regular;
+  font-family: Goku;
   font-style: oblique;
   color: whitesmoke;
   font-size: 60px;
@@ -276,7 +285,7 @@
 #first-title,
 #second-title {
   font-size: 30px;
-  font-family: Goku Regular;
+  font-family: Goku;
   color: whitesmoke;
   font-style: oblique;
   margin-left: 30px;
