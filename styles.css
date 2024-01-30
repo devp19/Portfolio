@@ -474,6 +474,7 @@
   border-radius: 1cqmin;
   font-family: Zuume;
   font-size: 20px;
+  transition: 0.5s;
   
 }
 
@@ -582,7 +583,6 @@
     background-blend-mode: soft-light;
     z-index: -1;
   }
-
   #buddy-box{
     height: 500px;
   }
@@ -593,10 +593,18 @@
    
   }
 
+  #landing-name{
+    font-size: 100px;
+  }
+
 }
 
 #buttons-for-project{
   margin-right: 30px;
+}
+
+#about-me-text{
+  font-size: 70px;
 }
 
 @media (max-width: 1199px) {
@@ -618,4 +626,10 @@
 
 #skill-icon {
   width: auto;
+}
+
+
+#project-git:hover{
+  color: #525ceb;
+  background-color: white;
 }
