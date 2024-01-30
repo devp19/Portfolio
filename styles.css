@@ -269,6 +269,18 @@
   cursor: default;
 }
 
+#buddy-box {
+  height: 350px;
+  background: rgba(46, 46, 46, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 255, 255, 0.47);
+  transition: 1s;
+  overflow: hidden;
+  cursor: default;
+}
 #second-box {
   height: 350px;
   background: rgba(46, 46, 46, 0.3);
@@ -281,6 +293,7 @@
   overflow: hidden;
   cursor: default;
 }
+
 
 #first-title,
 #second-title {
@@ -570,12 +583,20 @@
     z-index: -1;
   }
 
+  #buddy-box{
+    height: 500px;
+  }
+
   #form-box {
     
     border: 0px solid rgba(255, 255, 255, 0.47);
    
   }
 
+}
+
+#buttons-for-project{
+  margin-right: 30px;
 }
 
 @media (max-width: 1199px) {
