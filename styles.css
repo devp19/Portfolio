@@ -477,6 +477,30 @@
   transition: 0.5s;
   
 }
+#main-git {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+  margin-top: 10px;
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 20px;
+  transition: 0.5s;
+  
+}
+#main-linkedin {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #525ceb;
+  margin-top: 10px;
+  border-radius: 1cqmin;
+  font-family: Zuume;
+  font-size: 20px;
+  transition: 0.5s;
+  
+}
 
 #second-social {
   color: white;
@@ -501,7 +525,10 @@
 }
 
 #contact-icon {
-  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 @media (max-width: 509px) {
@@ -629,7 +656,11 @@
 }
 
 
-#project-git:hover{
+#main-git:hover{
+  color: #525ceb;
+  background-color: white;
+}
+#main-linkedin:hover{
   color: #525ceb;
   background-color: white;
 }
